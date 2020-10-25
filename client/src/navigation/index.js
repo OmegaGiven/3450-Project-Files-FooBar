@@ -16,6 +16,7 @@ export default function Navigation() {
 			<NavElement onClick={() => history.replace('/register')}>Register</NavElement>
 			<NavElement onClick={() => history.replace('/login')}>Login</NavElement>
 			<NavElement onClick={() => history.replace('/profile')}>Profile (Editable)</NavElement>
+			<NavElement onClick={() => history.replace('/Inventory')}>Inventory</NavElement>
 		</Navbar>
 	)
 }
